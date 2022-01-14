@@ -2,9 +2,9 @@ import React from "react";
 
 export default function ProjectCard(props) {
   return (
-    <div className="card card-bordered max-w-sm">
+    <div className="card card-bordered w-96 bg-base-100">
       <figure>
-        <img src={props.src} className="w-full" alt="Project profile" />
+        <img src={props.src} className="h-52" alt="Project profile" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{props.title}</h2>
