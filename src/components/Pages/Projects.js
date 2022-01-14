@@ -18,12 +18,12 @@ export default function Projects() {
           <ProjectCard
             title="Desk Allocation System"
             src="https://i.imgur.com/5n4PxoC.png"
-            description="test"
+            description="As part of the Capstone Project "
             tags={["React", "TypeScript", "ESLint", "TailwindCSS", "Husky"]}
           />
           <ProjectCard
             title="Memory Attack"
-            src={"https://i.imgur.com/7SI5KvY.png"}
+            src={"https://i.imgur.com/kUOXid4.png"}
             description="test"
             tags={["C++", "SDL2", "Aseprite"]}
           />
