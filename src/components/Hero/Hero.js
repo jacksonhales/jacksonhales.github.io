@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="flex flex-col hero-content lg:flex-row-reverse xl:space-x-40">
         <img
           src={"https://i.imgur.com/OGqz5MV.png"}
-          className="max-w-sm rounded-box shadow-2xl"
+          className="max-w-sm mask mask-hexagon shadow-2xl "
           alt="The software developer Jackson Hales"
         />
         <div>
