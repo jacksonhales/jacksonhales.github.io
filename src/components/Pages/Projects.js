@@ -34,6 +34,17 @@ export default function Projects() {
             description="A card battle game where you build your hand by matching two and can face off against NPCs of varying difficulty."
             tags={["C++", "SDL2", "Aseprite", "Visual Studio 2019"]}
           />
+          <ProjectCard
+            title="Flogger"
+            src={"https://i.imgur.com/Ui9Skxc.png"}
+            description="A fitness routine tracking Android application."
+            tags={[
+              "Android Studio",
+              "Android Room",
+              "Kotlin",
+              "Material Design",
+            ]}
+          />
         </div>
       </div>
     </div>

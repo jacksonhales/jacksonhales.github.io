@@ -14,11 +14,11 @@ export default function Hero() {
           <h4 className="mb-4 text-emerald-500">Hello there, my name is</h4>
           <h1 className="text-6xl font-bold">Jackson Hales</h1>
           <h2 className="text-6xl font-bold opacity-50 mt-2">
-            I make things and do stuff.
+            I make software and do things!
           </h2>
           <p className="my-5 max-w-xl">
             I'm a software developer with experience across many technologies
-            and platforms. Click below to see what I've been up to!
+            and platforms. Click below to see what I've been up to.
           </p>
           <button className="btn btn-primary bg-transparent border-emerald-500 text-emerald-500 hover:bg-emerald-100">
             <Link to="/projects">Projects</Link>
