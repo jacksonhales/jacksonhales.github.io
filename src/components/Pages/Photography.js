@@ -37,7 +37,7 @@ export default function Photography() {
             with my Google Pixel 4 and take the macro photos using the Moment
             Macro 10x Lens.
           </p>
-          <div className="flex flex-col">
+          <div className="flex flex-col px-8">
             <h2 className="text-2xl ml-2 mb-2">Landscape</h2>
             <Carousel responsive={responsive}>
               <CarouselItem src="https://i.imgur.com/UJTZPfR.jpg" />
@@ -52,7 +52,7 @@ export default function Photography() {
             </Carousel>
           </div>
           <div className="divider"></div>
-          <div className="flex flex-col">
+          <div className="flex flex-col px-8">
             <h2 className="text-2xl ml-2 mb-2">Macro</h2>
             <Carousel responsive={responsive}>
               <CarouselItem src="https://i.imgur.com/gyTUtoO.jpg" />
