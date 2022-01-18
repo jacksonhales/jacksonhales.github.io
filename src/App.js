@@ -8,7 +8,7 @@ import Footer from "./components/Global/Footer";
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter basename="/">
         <div className="min-h-screen w-full p-4 bg-base-300">
           <Navbar />
           <Routes>
