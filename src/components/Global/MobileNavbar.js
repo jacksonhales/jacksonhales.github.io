@@ -5,18 +5,24 @@ import { DownloadIcon } from "@heroicons/react/solid";
 export default function MobileNavbar() {
   return (
     <div className="py-4 absolute right-0 top-20 mr-4 z-10 lg:hidden bg-transparent">
-      <ul className="menu py-3 shadow-lg bg-base-100 rounded-box">
+      <ul className="menu border-2 border-emerald-500 py-3 shadow-lg bg-base-100 rounded-box">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="hover:text-emerald-500">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" className="hover:text-emerald-500">
+            Projects
+          </Link>
         </li>
         <li>
-          <Link to="/photography">Photography</Link>
+          <Link to="/photography" className="hover:text-emerald-500">
+            Photography
+          </Link>
         </li>
         <li>
-          <button className="m-4 btn btn-xs w-24 mx-auto bg-transparent border-emerald-500 text-emerald-500 hover:bg-emerald-100">
+          <button className="m-4 btn btn-xs w-24 mx-auto bg-transparent border-emerald-500 text-emerald-500 hover:bg-emerald-200">
             <div className="flex flex-col">
               <a
                 target="_self"

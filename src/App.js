@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="min-h-screen rounded-box m-4">
+        <div className="min-h-screen rounded-box p-4 bg-base-300">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

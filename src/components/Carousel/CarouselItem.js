@@ -5,7 +5,7 @@ export default function CarouselItem(props) {
     <div className="carousel-item">
       <img
         src={props.src}
-        className="rounded-box w-96 h-60 object-cover"
+        className="rounded-box border-2 border-base-100 w-96 h-60 object-cover"
         alt="Carousel item"
       />
     </div>

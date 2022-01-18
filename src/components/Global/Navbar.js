@@ -10,9 +10,14 @@ export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="navbar my-4 shadow-lg bg-neutral text-neutral-content rounded-box">
+    <div className="navbar mb-4 shadow-lg bg-neutral text-neutral-content rounded-box">
       <div className="px-2 mx-2 navbar-start">
-        <span className="text-lg font-bold text-emerald-500">
+        <span className="flex flex-row space-x-4 items-center text-lg font-bold text-emerald-500 ">
+          <img
+            src="https://i.imgur.com/XTuOBLu.png"
+            className="w-10"
+            alt="Logo"
+          />
           <Link to="/">Jackson Hales</Link>
         </span>
       </div>
@@ -21,7 +26,7 @@ export default function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/photography">Photography</Link>
-          <button className="btn btn-xs bg-transparent border-emerald-500 text-emerald-500 hover:bg-emerald-100">
+          <button className="btn btn-xs bg-transparent border-emerald-500 text-emerald-500 hover:bg-emerald-200">
             <div className="flex flex-col">
               <a
                 target="_self"

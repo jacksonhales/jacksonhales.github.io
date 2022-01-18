@@ -9,7 +9,7 @@ export default function Photography() {
           Photography
         </h1>
         <p className="text-center">
-          I'm an amateur nature photographry enthusiast! I take nature photos
+          I'm an amateur nature photography enthusiast! I take nature photos
           with my Google Pixel 4 and take the macro photos using the Moment
           Macro 10x Lens.
         </p>
