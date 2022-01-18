@@ -16,7 +16,7 @@ export default function ProjectCard(props) {
         <div className="card-actions">
           {props.tags.map((tag) => {
             return (
-              <div key={tag} className="badge badge-ghost">
+              <div key={tag} className="badge bg-base-300 badge-ghost">
                 {tag}
               </div>
             );

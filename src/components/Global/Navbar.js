@@ -12,14 +12,16 @@ export default function Navbar() {
   return (
     <div className="navbar mb-4 shadow-lg bg-neutral text-neutral-content rounded-box">
       <div className="px-2 mx-2 navbar-start">
-        <span className="flex flex-row space-x-4 items-center text-lg font-bold text-emerald-500 ">
+        <Link
+          className="flex flex-row items-center space-x-4 text-lg font-bold text-emerald-500"
+          to="/"
+        >
           <img
             src="https://i.imgur.com/XTuOBLu.png"
             className="w-10"
             alt="Logo"
           />
-          <Link to="/">Jackson Hales</Link>
-        </span>
+        </Link>
       </div>
       <div className="hidden px-2 mx-2 navbar-center lg:flex">
         <div className="flex items-stretch space-x-8 uppercase">
