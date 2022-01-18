@@ -32,13 +32,13 @@ export default function Photography() {
           <h1 className="text-center text-4xl uppercase tracking-wider py-4 text-emerald-500">
             Photography
           </h1>
-          <p className="text-center max-w-xl px-4 mx-auto">
+          <p className="text-center max-w-xl text-2xs md:text-base px-4 mx-auto">
             I'm an amateur nature photography enthusiast! I take nature photos
             with my Google Pixel 4 and take the macro photos using the Moment
             Macro 10x Lens.
           </p>
-          <div className="flex flex-col p-8">
-            <h2 className="text-2xl mb-2">Landscape</h2>
+          <div className="flex flex-col">
+            <h2 className="text-2xl ml-2 mb-2">Landscape</h2>
             <Carousel responsive={responsive}>
               <CarouselItem src="https://i.imgur.com/UJTZPfR.jpg" />
               <CarouselItem src="https://i.imgur.com/UqmJI0M.jpg" />
@@ -52,8 +52,8 @@ export default function Photography() {
             </Carousel>
           </div>
           <div className="divider"></div>
-          <div className="flex flex-col p-8">
-            <h2 className="text-2xl mb-2">Macro</h2>
+          <div className="flex flex-col">
+            <h2 className="text-2xl ml-2 mb-2">Macro</h2>
             <Carousel responsive={responsive}>
               <CarouselItem src="https://i.imgur.com/gyTUtoO.jpg" />
               <CarouselItem src="https://i.imgur.com/nowN5yq.jpg" />
