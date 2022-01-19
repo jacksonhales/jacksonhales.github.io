@@ -24,18 +24,24 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="hidden px-2 mx-2 navbar-center lg:flex">
-        <div className="flex items-stretch space-x-8 uppercase">
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/photography">Photography</Link>
-          <button className="btn btn-xs bg-transparent border-emerald-500 text-emerald-500 hover:bg-emerald-200">
+        <div className="flex items-center space-x-8 uppercase">
+          <Link className="btn btn-ghost h-full" to="/">
+            Home
+          </Link>
+          <Link className="btn btn-ghost h-full" to="/projects">
+            Projects
+          </Link>
+          <Link className="btn btn-ghost h-full" to="/photography">
+            Photography
+          </Link>
+          <button className="btn btn-xs bg-transparent border-emerald-500 hover:bg-emerald-600 text-white">
             <div className="flex flex-col">
               <a
                 target="_self"
                 href="https://github.com/jacksonhales/jacksonhales.github.io/blob/main/src/media/docs/Jackson%20Hales%20Resume.pdf?raw=true"
                 rel="noreferrer"
               >
-                <DownloadIcon className="h-3 w-3 text-emerald-500 float-left mr-1" />
+                <DownloadIcon className="h-3 w-3 text-white float-left mr-1" />
                 Resume
               </a>
             </div>

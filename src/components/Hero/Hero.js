@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import svg from "../../media/backgrounds/endless-constellation.svg";
 
 export default function Hero() {
   return (
-    <div className="hero min-h-screen bg-base-200 text-base-content shadow-lg rounded-box">
+    <div
+      className="hero min-h-screen bg-base-200 text-base-content bg-auto shadow-lg rounded-box"
+      style={{ backgroundImage: `url(${svg})` }}
+    >
       <div className="h-full lg:h-fit w-full xl:w-fit">
         <div className="flex h-full w-full xl:h-fit border-2 border-emerald-500 flex-col hero-content lg:flex-row-reverse bg-base-300 rounded-box px-10 lg:p-20">
           <img
