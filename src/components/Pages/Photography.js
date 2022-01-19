@@ -51,7 +51,7 @@ export default function Photography() {
               <CarouselItem src="https://i.imgur.com/Pk5IyCul.jpg" />
             </Carousel>
           </div>
-          <div className="divider"></div>
+          <div className="divider pl-10 pr-20 pt-10"></div>
           <div className="flex flex-col px-8">
             <h2 className="text-2xl ml-2 mb-2">Macro</h2>
             <Carousel responsive={responsive}>
