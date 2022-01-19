@@ -40,37 +40,37 @@ export default function Photography() {
           <div className="flex flex-col px-8">
             <h2 className="text-2xl ml-2 mb-2">Landscape</h2>
             <Carousel responsive={responsive}>
-              <CarouselItem src="https://i.imgur.com/UJTZPfR.jpg" />
-              <CarouselItem src="https://i.imgur.com/UqmJI0M.jpg" />
-              <CarouselItem src="https://i.imgur.com/ln1teJY.jpg" />
-              <CarouselItem src="https://i.imgur.com/VqJYdoW.jpg" />
-              <CarouselItem src="https://i.imgur.com/NnKn9uf.jpg" />
-              <CarouselItem src="https://i.imgur.com/Co37S4P.jpg" />
-              <CarouselItem src="https://i.imgur.com/TUf5LZw.jpg" />
-              <CarouselItem src="https://i.imgur.com/hnoypWB.jpg" />
-              <CarouselItem src="https://i.imgur.com/Pk5IyCu.jpg" />
+              <CarouselItem src="https://i.imgur.com/UJTZPfRl.jpg" />
+              <CarouselItem src="https://i.imgur.com/UqmJI0Ml.jpg" />
+              <CarouselItem src="https://i.imgur.com/ln1teJYl.jpg" />
+              <CarouselItem src="https://i.imgur.com/VqJYdoWl.jpg" />
+              <CarouselItem src="https://i.imgur.com/NnKn9ufl.jpg" />
+              <CarouselItem src="https://i.imgur.com/Co37S4Pl.jpg" />
+              <CarouselItem src="https://i.imgur.com/TUf5LZwl.jpg" />
+              <CarouselItem src="https://i.imgur.com/hnoypWBl.jpg" />
+              <CarouselItem src="https://i.imgur.com/Pk5IyCul.jpg" />
             </Carousel>
           </div>
           <div className="divider"></div>
           <div className="flex flex-col px-8">
             <h2 className="text-2xl ml-2 mb-2">Macro</h2>
             <Carousel responsive={responsive}>
-              <CarouselItem src="https://i.imgur.com/gyTUtoO.jpg" />
-              <CarouselItem src="https://i.imgur.com/nowN5yq.jpg" />
-              <CarouselItem src="https://i.imgur.com/WEqCEtp.jpg" />
-              <CarouselItem src="https://i.imgur.com/WBHGmN7.jpg" />
-              <CarouselItem src="https://i.imgur.com/TxX7KxM.jpg" />
-              <CarouselItem src="https://i.imgur.com/OFHSQp3.jpg" />
-              <CarouselItem src="https://i.imgur.com/1gidJiH.jpg" />
-              <CarouselItem src="https://i.imgur.com/EH16oPZ.jpg" />
-              <CarouselItem src="https://i.imgur.com/i45HXoA.jpg" />
-              <CarouselItem src="https://i.imgur.com/BBzyUxi.jpg" />
-              <CarouselItem src="https://i.imgur.com/qxwIanj.jpg" />
-              <CarouselItem src="https://i.imgur.com/ALtTifw.jpg" />
-              <CarouselItem src="https://i.imgur.com/PAg8IdI.jpg" />
-              <CarouselItem src="https://i.imgur.com/Q4F0CjH.jpg" />
-              <CarouselItem src="https://i.imgur.com/cVCML0I.jpg" />
-              <CarouselItem src="https://i.imgur.com/aycztvR.jpg" />
+              <CarouselItem src="https://i.imgur.com/gyTUtoOl.jpg" />
+              <CarouselItem src="https://i.imgur.com/nowN5yql.jpg" />
+              <CarouselItem src="https://i.imgur.com/WEqCEtpl.jpg" />
+              <CarouselItem src="https://i.imgur.com/WBHGmN7l.jpg" />
+              <CarouselItem src="https://i.imgur.com/TxX7KxMl.jpg" />
+              <CarouselItem src="https://i.imgur.com/OFHSQp3l.jpg" />
+              <CarouselItem src="https://i.imgur.com/1gidJiHl.jpg" />
+              <CarouselItem src="https://i.imgur.com/EH16oPZl.jpg" />
+              <CarouselItem src="https://i.imgur.com/i45HXoAl.jpg" />
+              <CarouselItem src="https://i.imgur.com/BBzyUxil.jpg" />
+              <CarouselItem src="https://i.imgur.com/qxwIanjl.jpg" />
+              <CarouselItem src="https://i.imgur.com/ALtTifwl.jpg" />
+              <CarouselItem src="https://i.imgur.com/PAg8IdIl.jpg" />
+              <CarouselItem src="https://i.imgur.com/Q4F0CjHl.jpg" />
+              <CarouselItem src="https://i.imgur.com/cVCML0Il.jpg" />
+              <CarouselItem src="https://i.imgur.com/aycztvRl.jpg" />
             </Carousel>
           </div>
         </div>

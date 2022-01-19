@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="h-full w-full">
       <div className="bg-neutral rounded-box lg:p-8 lg:w-full">
-        <div className="bg-base-300 border-2 border-emerald-500 w-full pt-8 pb-8 lg:px-15 lg:pb-8 lg:pt-8 rounded-box">
+        <div className="bg-base-300 border-2 border-emerald-500 w-full py-8 lg:px-15 rounded-box">
           <h1 className="text-center text-4xl uppercase tracking-wider pb-8 text-emerald-500">
             Projects
           </h1>
