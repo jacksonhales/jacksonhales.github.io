@@ -32,7 +32,7 @@ export default function Navbar() {
             <div className="flex flex-col">
               <a
                 target="_self"
-                href="https://github.com/jacksonhales/jacksonhales.github.io/blob/15b331e619b806fbb785366a91afa2eac0e61946/src/media/docs/Jackson%20Hales%20Resume.pdf?raw=true"
+                href="https://github.com/jacksonhales/jacksonhales.github.io/blob/main/src/media/docs/Jackson%20Hales%20Resume.pdf?raw=true"
                 rel="noreferrer"
               >
                 <DownloadIcon className="h-3 w-3 text-emerald-500 float-left mr-1" />
