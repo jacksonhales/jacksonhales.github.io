@@ -28,8 +28,8 @@ export default function Photography() {
   return (
     <div className="h=full w-full">
       <div className="bg-neutral rounded-box lg:p-8 lg:w-full">
-        <div className="bg-base-300 border-2 border-emerald-500 mx-auto pt-4 lg:px-15 lg:pb-8 rounded-box">
-          <h1 className="text-center text-4xl uppercase tracking-wider py-4 text-emerald-500">
+        <div className="bg-base-300 border-2 border-emerald-500 mx-auto py-8 lg:px-15 rounded-box">
+          <h1 className="text-center text-4xl uppercase tracking-wider pb-4 text-emerald-500">
             Photography
           </h1>
           <p className="text-center max-w-xl text-2xs md:text-base px-4 mx-auto">
@@ -51,7 +51,7 @@ export default function Photography() {
               <CarouselItem src="https://i.imgur.com/Pk5IyCul.jpg" />
             </Carousel>
           </div>
-          <div className="divider pl-10 pr-20 pt-10"></div>
+          <div className="divider pl-10 pr-10 lg:pr-20 pt-10"></div>
           <div className="flex flex-col px-8">
             <h2 className="text-2xl ml-2 mb-2">Macro</h2>
             <Carousel responsive={responsive}>
