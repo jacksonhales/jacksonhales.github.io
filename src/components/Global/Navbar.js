@@ -34,6 +34,9 @@ export default function Navbar() {
           <Link className="btn btn-ghost h-full" to="/photography">
             Photography
           </Link>
+          <Link className="btn btn-ghost h-full" to="/art">
+            Art
+          </Link>
           <button className="btn btn-xs bg-transparent border-emerald-500 hover:bg-emerald-600 text-white">
             <div className="flex flex-col">
               <a

@@ -22,6 +22,11 @@ export default function MobileNavbar() {
           </Link>
         </li>
         <li>
+          <Link to="/art" className="btn btn-ghost w-full">
+            Art
+          </Link>
+        </li>
+        <li>
           <button className="m-4 btn btn-xs w-24 mx-auto bg-transparent border-emerald-500 hover:bg-emerald-600 text-white">
             <div className="flex flex-col">
               <a

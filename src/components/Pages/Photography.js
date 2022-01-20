@@ -1,10 +1,14 @@
-import React from "react";
+import { useState, React } from "react";
 // import Carousel from "../Carousel/Carousel";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarouselItem from "../Carousel/CarouselItem";
+import LightBox from "react-awesome-lightbox";
+import "react-awesome-lightbox/build/style.css";
 
 export default function Photography() {
+  const [lightBoxOpen, setLightBoxOpen] = useState(false);
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -37,6 +41,21 @@ export default function Photography() {
             with my Google Pixel 4 and take the macro photos using the Moment
             Macro 10x Lens.
           </p>
+          {lightBoxOpen === true ? (
+            <span>
+              <LightBox
+                image="https://i.imgur.com/UJTZPfRl.jpg"
+                allowRotate={false}
+                onClose={() => {
+                  setLightBoxOpen(false);
+                }}
+              />
+            </span>
+          ) : (
+            <span>
+              <button onClick={() => setLightBoxOpen(true)}>CLICK</button>
+            </span>
+          )}
           <div className="flex flex-col px-8">
             <h2 className="text-2xl ml-2 mb-2">Landscape</h2>
             <Carousel responsive={responsive}>
